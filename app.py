@@ -35,7 +35,7 @@ end_date = st.sidebar.date_input('End date', datetime.datetime.now().date())
 
 
 
-df = pd.read_csv(r'C:\Users\maha\Downloads\archive (2)\NIFTY 50 _2023.csv')
+df = pd.read_csv('NIFTY 50 _2023.csv')
 print(df.head())
 
 
